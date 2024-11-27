@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>new page</title>
+    <style>
+      .footer {
+        text-align: center;
+        padding: 10px;
+        background-color: lightblue;
+      }
+      .table {
+        width: 100%;
+        border: 1px solid black;
+      }
+      dt {
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+      section {
+        padding: 10px;
+        border: 1px solid black;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header"><h1>aviel mugdasi</h1></header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#exp">Experience</a></li>
+        <li><a href="#edu">Education</a></li>
+        <li><a href="#int">Intrests</a></li>
+        <li><a href="#ski">Skills</a></li>
+        <li><a href="#con">Contacts</a></li>
+      </ul>
+    </nav>
+    <article>
+      <p>welcome to my site hope you enjoy</p>
+      <hr />
+      <p>my name is aviel</p>
+      <img src="aviel.JPG" alt="img" width="300px">
+
+    </article>
+    <section id="exp">
+      <h2>Experience</h2>
+      <table class="table">
+        <colgroup>
+          <col span="1" style="background-color: lightgray" />
+        </colgroup>
+        <tr>
+          <th>company</th>
+          <th>details</th>
+          <th>years</th>
+        </tr>
+        <tr>
+          <th>electric company</th>
+          <th>gard</th>
+          <th>2022-2024</th>
+        </tr>
+        <tr>
+          <th>post office</th>
+          <th>gard</th>
+          <th>2020-2022</th>
+        </tr>
+        <tr>
+          <th>rad-binat</th>
+          <th>orez</th>
+          <th>2018-2020</th>
+        </tr>
+      </table>
+    </section>
+    <section id="edu">
+      <h2>Education</h2>
+      <dl>
+        <dt>my school</dt>
+        <dd>hackerU</dd>
+        <dt>degree</dt>
+        <dd>full stack developer</dd>
+      </dl>
+    </section>
+    <section id="int">
+      <h2>Intrests</h2>
+      <ul>
+        <li>computers</li>
+        <li>HTML</li>
+        <li>javascript</li>
+      </ul>
+    </section>
+    <section id="ski">
+      <h2>Skills</h2>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <ul>
+          <li>DOM</li>
+          <li>Node</li>
+          <li>google apps script</li>
+        </ul>
+      </ol>
+    </section>
+    <section id="con">
+      <h2>Contact me</h2>
+      <p>Contact me at my email <a href="mugdasi.bis@gmail.com">my email adress</a></p>
+    </section>
+
+    <footer class="footer">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque aperiam
+      quasi delectus accusantium distinctio quae cum dicta quas et minima, ad
+      tempora quaerat assumenda vitae fuga omnis, dolore incidunt ea!
+    </footer>
+  </body>
+</html>
