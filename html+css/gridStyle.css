@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Indie+Flower&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd;
+    font-family: "Indie Flower", cursive;
+
+}
+.header , .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.main {
+    display: grid;
+    grid-template-areas: 'cola colb colb colb colc';
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    display: block;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+}
+li a:hover{
+    background-color: rgb(160, 86, 86);
+}
+.col{
+    padding: 5px;
+}
+.main aside:first-child {
+    grid-area: cola;
+    background-color: steelblue;
+
+}
+.main article {
+    grid-area: colb;
+    background-color: thistle;
+}
+.main aside:last-child {
+    grid-area: colc;
+    background-color: lightcoral;
+
+}
+.footer {
+
+}
+@media (max-width:640px) {
+    .main {
+        grid-template-areas: 
+        'cola'
+        'colb'
+        'colc';
+    }
+}
